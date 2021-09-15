@@ -1,11 +1,8 @@
-
 import { Query, Controller, Res, Post, Get, Put, Delete, Param, Body, HttpStatus, NotFoundException } from '@nestjs/common';
 import { SeguimientoService } from './seguimiento.service';
 import { ApiTags } from '@nestjs/swagger';
 import { SeguimientoDto } from './dto/seguimiento.dto';
 import { FilterDto } from '../filters/dto/filter.dto';
-import { Seguimiento } from './schemas/seguimiento.schema';
-
 
 
 @ApiTags('seguimiento')
