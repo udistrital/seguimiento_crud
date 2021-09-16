@@ -1,6 +1,6 @@
 # seguimiento_crud
 
-API CRUD para el registro de ingreso y salida de espacios físicos de terceros para el cliente de alternancia.
+API CRUD para el registro de ingreso y salida de espacios físicos por parte de terceros para el cliente de alternancia.
 
 ## Especificaciones Técnicas
 
