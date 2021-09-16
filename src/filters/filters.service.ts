@@ -61,7 +61,7 @@ export class FiltersService {
   }
 
   getLimitAndOffset(): Object{            
-    return { skip: parseInt(this.filterDto.offset), limit: parseInt(this.filterDto.limit) };
+    return { skip: parseInt(this.filterDto.offset)|| 0, limit: parseInt(this.filterDto.limit)|| 0};
   }
 
 }
